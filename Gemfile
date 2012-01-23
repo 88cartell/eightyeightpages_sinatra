@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'tilt', :git => 'https://github.com/rtomayko/tilt'
 gem 'sinatra'
 gem 'haml'
 gem 'sass'

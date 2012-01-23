@@ -5,6 +5,12 @@ GIT
     eightyeightpages_client (0.0.2)
       httparty
 
+GIT
+  remote: https://github.com/rtomayko/tilt
+  revision: 173ade03fb72ade7f3aed948e104e26de043f6cf
+  specs:
+    tilt (1.3.3)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -30,7 +36,6 @@ GEM
       rack (~> 1.3, >= 1.3.6)
       rack-protection (~> 1.2)
       tilt (~> 1.3, >= 1.3.3)
-    tilt (1.3.3)
 
 PLATFORMS
   ruby
@@ -44,3 +49,4 @@ DEPENDENCIES
   sass
   shotgun
   sinatra
+  tilt!
