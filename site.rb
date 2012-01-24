@@ -1,8 +1,6 @@
 class Site < Sinatra::Base
   before do
-    ENV['RACK_ENV'] ||= 'development'
-    referer = ENV['RACK_ENV']
-    @query = EightyeightpagesClient::Query.new 'kinesis', referer
+    @query = EightyeightpagesClient::Query.new 'YOUR SITE HERE', 'localhost'
   end
 
   get "/stylesheets/:file.css" do |file|
